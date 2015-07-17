@@ -45,4 +45,14 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void outputFizzForNumbersDivisibleNumberOtherThan3and5() {
+        FizzBuzz fizzBuzz=new FizzBuzz();
+
+        String output = fizzBuzz.writeOutput(7);
+
+        assertEquals("Blah",output);
+
+    }
+
 }
