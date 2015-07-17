@@ -35,4 +35,14 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void outputFizzForNumbersDivisibleby3and5() {
+        FizzBuzz fizzBuzz=new FizzBuzz();
+
+        String output = fizzBuzz.writeOutput(15);
+
+        assertEquals("FizzBuzz",output);
+
+    }
+
 }
