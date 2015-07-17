@@ -25,6 +25,14 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void outputFizzForNumbersDivisibleby5() {
+        FizzBuzz fizzBuzz=new FizzBuzz();
 
+        String output = fizzBuzz.writeOutput(5);
+
+        assertEquals("Buzz",output);
+
+    }
 
 }
