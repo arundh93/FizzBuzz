@@ -15,6 +15,16 @@ public class FizzBuzzTest {
         assertEquals("Fizz",output);
 
     }
+    @Test
+    public void outputFizzForNumbersDivisibleby6() {
+        FizzBuzz fizzBuzz=new FizzBuzz();
+
+        String output = fizzBuzz.writeOutput(6);
+
+        assertEquals("Fizz",output);
+
+    }
+
 
 
 }

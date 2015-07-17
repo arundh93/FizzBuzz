@@ -2,7 +2,9 @@ package com.fizzBuzz;
 
 public class FizzBuzz {
     public String writeOutput(int number){
-
-        return "Fizz";
+        if(number%3==0)
+            return "Fizz";
+        else
+            return "Blah";
     }
 }
